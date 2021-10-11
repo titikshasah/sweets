@@ -1,0 +1,119 @@
+<html>
+<head>
+    <title>Project 1</title>
+    <style>
+        body{
+            background-image: 
+            color: ;
+            font-size: 30px;
+        }
+
+        .WWW{
+          display: inline;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        .Flower{
+            color: white;
+        }
+        .Flower:hover{
+            color: pink;
+            font-size: 40px;
+        }
+        .flex1{
+                background-color: whitesmoke;
+                color:black;
+                text-align: center;
+                height: 800px;
+                width:900px;
+                margin-top: 200px;
+            } 
+            @keyframes pictures{
+                0%{background-image:url("nature.jpg");}
+                25%{background-image:url("Maldives.jpg");}
+                75%{background-image:url("andaman.jpg");}
+                100%{background-image:url("flower.jpg");}
+            }
+
+            #container{
+                background-image: ;
+                background-color:pink;
+                height: 1000px;
+                width:100%;
+                border: solid indianred; 10px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content:space-between; 
+
+                }             
+         #div1{
+                background-color: coral;
+               }
+
+        #div2{
+            background-color: ivory;
+            margin-left: 200px;
+        }
+               
+    </style>
+</head>
+<body>
+    <marquee><h1>Navigation bar</h1></marquee>
+    <nav style="background-color: black;">
+        <ul style="list-style-type: none;">
+            <li class="WWW">
+              <img src="LOGO.jfif" height="100" width="100">
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="#">Home</a>
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="Our Mission and Vision.html">About us</a>
+
+            </li>
+            <li class="WWW">
+              <a class="Flower" href="#">Brands</a>
+              </li>
+        </ul>
+    </nav>
+    
+    <img src="SWEET.jpg" height="800" width="1500">
+    <br/>
+    <div class="flex1">  
+        <img src="sweet-bengal.jpg" height="400" width="700">
+        <img src="Dry Fruit.jpg" height="400" width="700">
+    </div>
+ <div id="div1">
+    <p style="color: black;font-size: 36;font-family: 'Monotype Corsiva';">Whatever be their description, Bengali sweets are adored by connoisseurs of taste. So why not share their heavenly taste with the wider world outside Bengal?
+
+Whether it is a wedding or an anniversary, birthday party or a festival, we have a sweet for every occasion. A wide and delectable range of sweets like Sondesh, Kheer Kodom, Chomchom, Rosogolla, Baked Mihidana, Mishti Doi, Dry Fruit Mishti along with snacks like Koraishutir Kochuri and Luchi Aloor Dom quickly established Sweet Bengal as the favourite destination for Bengali sweets and savouries in Mumbai.
+
+Created by Bengal's finest master craftsmen, Sweet Bengal's legacy dates back in 1995. Since then every delicacy created has brought in a special and unique taste along with the heritage of Calcutta's historic nuances. Indulge yourself in this sweet journey which will take you along the Maidan as you hear the faint tune from a Tagore's song or letting the words of a Pablo Neruda weave magic in your head.
+
+With over 22 outlets in Mumbai with a centralized confection factory, it is the most sought after and awarded destination for connoisseurs with a sweet tooth. It has been a satisfying and soulful journey in making your moments sweet and special.</p>
+<br/>
+<input type="button" value="Click here to open" onclick="a()">  
+<script>
+    alert("You're welcome.")
+     function a()
+
+         {
+            open("Our Mission and Vision.html");
+         }
+         
+
+</script>
+</div>
+ <div id="div2">
+    <img src="Kheer Kodom.jpg" height="400" width="500">
+        <img src="Kaju Katli.jpg" height="400" width="500">
+</div>
+<p>DID YOU LIKE OUR WEBISTE</p>
+  <label for= "REVIEW"> REVIEW:</label>
+        <input type= "text" name="Adr" placeholder="Please enter your Review">
+        <br/>
+        <p style="color: black; font-size: 36; font-family:MV Boli; text-align: Center;">The End
+        </p>
+</body>
+</html>
